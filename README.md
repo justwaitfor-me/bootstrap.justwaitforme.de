@@ -1,173 +1,205 @@
-# {{project_name}}
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
+</p>
+<p align="center">
+    <h1 align="center">BOOTSTRAP.JUSTWAITFORME.DE</h1>
+</p>
+<p align="center">
+    <em><code>by JustWait</code></em>
+</p>
+<p align="center">
+ <img src="https://img.shields.io/github/license/justwaitfor-me/bootstrap.justwaitforme.de?style=flat&color=0080ff" alt="license">
+ <img src="https://img.shields.io/github/last-commit/justwaitfor-me/bootstrap.justwaitforme.de?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+ <img src="https://img.shields.io/github/languages/top/justwaitfor-me/bootstrap.justwaitforme.de?style=flat&color=0080ff" alt="repo-top-language">
+ <img src="https://img.shields.io/github/languages/count/justwaitfor-me/bootstrap.justwaitforme.de?style=flat&color=0080ff" alt="repo-language-count">
+<p>
+<p align="center">
+  <em>Developed with the software and tools below.</em>
+</p>
+<p align="center">
+ <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+ <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">
+</p>
+<hr>
 
-## Table of Contents
+## 🔗 Quick Links
 
-1. [Introduction](#introduction)
-2. [Project Structure](#project-structure)
-3. [Installation](#installation)
-4. [Configuration](#configuration)
-5. [Usage](#usage)
-6. [Testing](#testing)
-7. [Contributing](#contributing)
-8. [CI/CD](#cicd)
-9. [License](#license)
-10. [Acknowledgments](#acknowledgments)
+> - [📍 Overview](#-overview)
+> - [📦 Features](#-features)
+> - [📂 Repository Structure](#-repository-structure)
+> - [🧩 Modules](#-modules)
+> - [🚀 Getting Started](#-getting-started)
+>   - [⚙️ Installation](#️-installation)
+>   - [🤖 Running bootstrap.justwaitforme.de](#-running-bootstrap.justwaitforme.de)
+>   - [🧪 Tests](#-tests)
+> - [🛠 Project Roadmap](#-project-roadmap)
+> - [🤝 Contributing](#-contributing)
+> - [📄 License](#-license)
+> - [👏 Acknowledgments](#-acknowledgments)
 
-## Introduction
+---
 
-Welcome to **{{project_name}}**! This project aims to [briefly describe the purpose and goals of the project]. Whether you're here to contribute or use this software, you'll find everything you need to get started in this repository.
+## 📂 Repository Structure
 
-## Project Structure
+```sh
+└── bootstrap.justwaitforme.de/
+    ├── index.html
+    └── public
+        ├── .htaccess
+        ├── css
+        │   ├── style.css
+        │   ├── style.css.map
+        │   └── style.scss
+        ├── img
+        │   ├── favicon
+        │   │   ├── android-chrome-192x192.png
+        │   │   ├── android-chrome-512x512.png
+        │   │   ├── apple-touch-icon.png
+        │   │   ├── favicon-16x16.png
+        │   │   ├── favicon-32x32.png
+        │   │   ├── favicon.ico
+        │   │   └── site.webmanifest
+        │   ├── favicon.ico
+        │   └── logo.png
+        └── js
+            └── main.js
+```
 
-This project is organized in the following structure:
+---
 
-{{project_name}}/ ├── .github/ # GitHub workflows and CI/CD configuration │ └── workflows/ │ └── ci.yml # Basic GitHub Actions workflow ├── config/ # Configuration files for project setup ├── docs/ # Documentation files ├── src/ # Main source code directory ├── tests/ # Test files and test suite ├── scripts/ # Automation and utility scripts ├── README.md # Project description ├── LICENSE # License file for the project ├── .gitignore # Git ignore file for unnecessary files └── .env.example # Example environment file
+## 🧩 Modules
 
+<details closed><summary>.</summary>
 
-### Explanation of Directories and Files
+| File                                                                                              | Summary                         |
+| ------------------------------------------------------------------------------------------------- | ------------------------------- |
+| [index.html](https://github.com/justwaitfor-me/bootstrap.justwaitforme.de/blob/master/index.html) | <code>► INSERT-TEXT-HERE</code> |
 
-- **`.github/`**: Contains GitHub Actions workflows, like `ci.yml`, which automates continuous integration (CI) tasks such as linting, testing, and deployment.
-  
-- **`config/`**: Stores configuration files for various project-related settings (e.g., database configurations, API keys, etc.).
+</details>
 
-- **`docs/`**: Holds documentation files that explain how the project works, how to contribute, or any necessary technical details for users and developers.
+<details closed><summary>public</summary>
 
-- **`src/`**: The source code of the project. This is where the main application logic is implemented.
+| File                                                                                                   | Summary                         |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------- |
+| [.htaccess](https://github.com/justwaitfor-me/bootstrap.justwaitforme.de/blob/master/public/.htaccess) | <code>► INSERT-TEXT-HERE</code> |
 
-- **`tests/`**: Contains test files that ensure the code runs correctly and reliably.
+</details>
 
-- **`scripts/`**: Utility scripts for automating repetitive tasks (e.g., setup, deployment, etc.).
+<details closed><summary>public.css</summary>
 
-- **`README.md`**: This file! Provides a high-level overview of the project, installation instructions, usage details, and contribution guidelines.
+| File                                                                                                               | Summary                         |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------- |
+| [style.scss](https://github.com/justwaitfor-me/bootstrap.justwaitforme.de/blob/master/public/css/style.scss)       | <code>► INSERT-TEXT-HERE</code> |
+| [style.css](https://github.com/justwaitfor-me/bootstrap.justwaitforme.de/blob/master/public/css/style.css)         | <code>► INSERT-TEXT-HERE</code> |
+| [style.css.map](https://github.com/justwaitfor-me/bootstrap.justwaitforme.de/blob/master/public/css/style.css.map) | <code>► INSERT-TEXT-HERE</code> |
 
-- **`LICENSE`**: The open-source license for the project, ensuring proper usage and distribution.
+</details>
 
-- **`.gitignore`**: Specifies which files or directories Git should ignore, such as build files or sensitive data.
+<details closed><summary>public.img.favicon</summary>
 
-- **`.env.example`**: An example environment file to set up necessary environment variables (e.g., database credentials, API keys).
+| File                                                                                                                             | Summary                         |
+| -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| [site.webmanifest](https://github.com/justwaitfor-me/bootstrap.justwaitforme.de/blob/master/public/img/favicon/site.webmanifest) | <code>► INSERT-TEXT-HERE</code> |
 
-## Installation
+</details>
 
-Follow these steps to get **{{project_name}}** up and running on your local machine:
+<details closed><summary>public.js</summary>
 
-### Prerequisites
+| File                                                                                                  | Summary                         |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------- |
+| [main.js](https://github.com/justwaitfor-me/bootstrap.justwaitforme.de/blob/master/public/js/main.js) | <code>► INSERT-TEXT-HERE</code> |
 
-- Node.js >= 14.x.x (or your preferred runtime)
-- Python 3.x (if applicable)
-- Other dependencies (add if relevant, e.g., Docker, etc.)
+</details>
 
-### Steps to Install
+---
 
-1. Clone the repository:
+## 🚀 Getting Started
 
-   ```bash
-   git clone https://github.com/{{author_name}}/{{project_name}}.git
+**_Requirements_**
 
-Navigate into the project directory:
+Ensure you have the following dependencies installed on your system:
 
-cd {{project_name}}
-Install dependencies:
+- **CSS**: `version x.y.z`
 
-If using Node.js:
+### ⚙️ Installation
 
-npm install
-If using Python:
+1. Clone the bootstrap.justwaitforme.de repository:
 
-pip install -r requirements.txt
-(Optional) Copy the .env.example file to .env and set up your environment variables:
+```sh
+git clone https://github.com/justwaitfor-me/bootstrap.justwaitforme.de
+```
 
+2. Change to the project directory:
 
-cp .env.example .env
-Update the .env file with your specific configuration (e.g., API keys, database credentials).
+```sh
+cd bootstrap.justwaitforme.de
+```
 
-You're ready to start!
+---
 
-Configuration
-The configuration files in the config/ directory allow you to tailor the project for your environment. Modify these files based on your needs:
+## 🛠 Project Roadmap
 
-config/database.yml: Set up your database connection here.
-config/api_keys.json: Place your API keys and other sensitive information here.
-Be sure to never commit sensitive information into version control! Use .env or secure vaults for secret management.
+- [x] `► building fullstack`
+- [x] `► api init`
+- [ ] `► editing by multiple choice`
 
-Usage
-After installing, you can run the project with:
+---
 
-If using Node.js:
+## 🤝 Contributing
 
+Contributions are welcome! Here are several ways you can contribute:
 
-npm start
-If using Python:
+- **[Submit Pull Requests](https://github.com/justwaitfor-me/bootstrap.justwaitforme.de/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **[Join the Discussions](https://github.com/justwaitfor-me/bootstrap.justwaitforme.de/discussions)**: Share your insights, provide feedback, or ask questions.
+- **[Report Issues](https://github.com/justwaitfor-me/bootstrap.justwaitforme.de/issues)**: Submit bugs found or log feature requests for Bootstrap.justwaitforme.de.
 
+<details closed>
+    <summary>Contributing Guidelines</summary>
 
-python app.py
-Make sure to check the docs/ directory for additional usage instructions and examples, particularly for any specific commands or tools related to the project.
+1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
 
-Testing
-{{project_name}} uses [your test framework] for unit and integration testing. To run the tests:
+   ```sh
+   git clone https://github.com/justwaitfor-me/bootstrap.justwaitforme.de
+   ```
 
-Ensure you have installed the necessary dependencies (see Installation).
-Run the test suite:
-If using Node.js:
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
 
-npm test
-If using Python:
+   ```sh
+   git checkout -b new-feature-x
+   ```
 
-pytest
-For continuous testing during development, consider running the test watcher or setting up automated tests via GitHub Actions.
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
 
-Contributing
-We welcome contributions! To contribute:
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
 
-Fork the repository
-Create a new branch (git checkout -b feature-branch)
-Make your changes and commit them (git commit -am 'Add new feature')
-Push to your branch (git push origin feature-branch)
-Create a pull request.
-Before submitting a pull request, please ensure that:
+6. **Push to GitHub**: Push the changes to your forked repository.
 
-Your code is well-documented.
-You have written or updated tests.
-You have followed the code style and project conventions.
-For more detailed contributing guidelines, see CONTRIBUTING.md.
+   ```sh
+   git push origin new-feature-x
+   ```
 
-CI/CD
-This project is set up with continuous integration (CI) using GitHub Actions. The workflow is defined in .github/workflows/ci.yml. This file contains the automated steps for:
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
 
-Running tests on every push to the repository.
-Linting code to enforce consistent style.
-Building and deploying the application (if applicable).
-You can modify the CI workflow to add additional steps, like deployment or notifications.
+Once your PR is reviewed and approved, it will be merged into the main branch.
 
-Example CI Workflow (.github/workflows/ci.yml):
+</details>
 
-name: CI Pipeline
+---
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+## 📄 License
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-      - run: npm install
-      - run: npm test
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is protected under the MIT License. For more details, refer to the license file.
 
-Acknowledgments
-[List any contributors, libraries, or tools used in the project]
-Special thanks to [Name] for [specific contributions].
-Feel free to modify this README template to suit the specifics of your project. Adjust the steps based on the dependencies, environment, and setup specific to your project.
+---
 
+## 👏 Acknowledgments
 
-This `README.md` file provides a thorough guide for anyone interacting with your project. It is ready to be customized with specific details for your repository.
+- List any resources, contributors, inspiration, etc. here.
+
+[**Return**](#-quick-links)
+
+---

@@ -1,0 +1,257 @@
+$background: #212529;
+$secondary-background: #1b1f22;
+$text-color: #ffffff;
+$secondary-color: #6c757d;
+$text-bg-color: #dee2e6;
+$text-md-highlight-color: #e685b5;
+$text-md-undermark-color: #abb2bf;
+$text-md-green-color: #79dfc1;
+$text-md-yellow-color: #ffe69c;
+$text-md-blue-color: #6edff6;
+$text-md-purple-color: #c29ffa;
+$text-md-oragne-color: #feb272;
+
+html,
+body {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+body {
+  background-color: $background;
+  display: grid;
+  grid-template-columns: 280px auto;
+}
+
+aside {
+  display: flex;
+  height: 100%;
+  overflow-y: scroll;
+
+  li {
+    padding-bottom: 6px;
+  }
+
+  
+}
+
+main {
+  overflow-y: hidden;
+}
+
+nav {
+  height: 100%;
+}
+
+footer {
+  color: white;
+  display: none;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+
+  p {
+    margin-top: 2px;
+    margin-bottom: 0px;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  aside {
+    display: none;
+  }
+
+  body {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: auto auto;
+  }
+
+  main {
+    height: 100%;
+  }
+
+  footer {
+    display: block;
+  }
+}
+
+section {
+  height: 100%;
+  overflow-y: scroll;
+  color: $text-color; 
+  margin-left: 20px;
+  padding-right: 20px;
+
+  p {
+    margin: 0;
+  }
+
+  .code-num {
+    padding-right: 20px;
+  }
+
+  .edit-item {
+    height: 100%;
+  }
+
+  .item {
+    padding-top: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+
+    .preview {
+      margin: 10px; 
+    }
+
+    .edit-preview {
+      height: 30%;
+      overflow-y: scroll;
+    }
+
+    .edit-rep-card {
+      height: 100%;
+    }
+
+    .rep-card {
+      background-color: $secondary-background;
+      color: $text-color;
+
+      .rep-card-body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 30px;
+
+        button {
+          background-color: transparent;
+          border: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 3px;
+
+          svg {
+            width: 24px;
+            color: white;
+
+            
+          }
+
+          .bi-clipboard-fill {
+            display: none;
+          }
+
+          .bi-clipboard {
+            display: block;
+          }
+
+          .bi-clipboard-check-fill {
+            display: none;
+          }
+
+          &:hover {
+            .bi-clipboard {
+              display: none;
+            }
+
+            .bi-clipboard-fill {
+              display: block;
+            }
+          }
+
+          &:focus {
+            .bi-clipboard-check-fill {
+              display: block;
+            }
+
+            
+            .bi-clipboard {
+              display: none;
+            }
+
+            .bi-clipboard-fill {
+              display: none;
+            }
+          }
+        }
+
+        img {
+          height: 20px;
+        }
+
+        .lang {
+          font-size: 0.8rem;
+        }
+      }
+
+      .rep-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $background;
+        border-bottom-color: white;
+      }
+
+      .rep-card-footer {
+        border-top-color: white;
+      }
+
+      .edit-rep-card-footer {
+        height: 60%;
+        display: grid;
+        grid-template-rows: auto auto;
+        overflow-y: scroll;
+      }
+    }
+
+    .code {
+      font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+        "Courier New", monospace;
+      padding-bottom: 10px;
+        line {
+          overflow: hidden;
+          white-space: pre-wrap;
+          overflow: auto;
+          width: 100%;
+          height: 5px;
+
+          br {
+            display: none;
+          }
+
+          .grey {
+            color: $text-md-undermark-color;
+          }
+
+          .green {
+            color: $text-md-green-color;
+          }
+
+          .yellow {
+            color: $text-md-yellow-color;
+          }
+
+          .blue {
+            color: $text-md-blue-color;
+          }
+
+          .text {
+            color: $text-color;
+          }
+
+          .highlight {
+            color: $text-md-highlight-color;
+          }
+        }
+      
+    }
+  }
+}
