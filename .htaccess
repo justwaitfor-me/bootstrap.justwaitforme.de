@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^ src/index.html [L]
+RewriteRule ^ index.php [L]
